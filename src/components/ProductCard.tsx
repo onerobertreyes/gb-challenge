@@ -1,4 +1,5 @@
 import { Product } from '@/types/Product'
+import ReactStars  from 'react-stars'
 
 type ProductProps = {
   product: Product
@@ -22,7 +23,7 @@ export default function ProductCard({ product }: ProductProps) {
                           {product.title}
                         </a>
                       </h3>
-                      <p className="mt-1 text-sm text-gray-500">{product.rating}</p>
+                      <p className="mt-1 text-sm text-gray-500"><ReactStars  edit={false} value={product.rating} count={5} size={24} color2={'#ffd700'} /></p>
                     </div>
                     <p className="text-sm font-medium text-gray-900">{product.price} {product.currency}</p>
                   </div>

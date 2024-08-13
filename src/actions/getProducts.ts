@@ -24,7 +24,12 @@ export const getProducts = async (offset: number, limit: number) => {
         const start = Math.min(length - 1, offset);
         const end = Math.min(length, offset + limit);
 
-        return data.slice(start, end);
+        const products = data.slice(start, end);
+
+        console.log(products)
+
+        return products
+
 
     } catch (error: unknown) {
         throw new Error(`Error message: ${error}`)
