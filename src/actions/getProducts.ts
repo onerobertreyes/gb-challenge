@@ -3,16 +3,28 @@ import { Product } from '@/types/Product'
 
 export const getProducts = async (offset: number, limit: number) => {
     try {
-        const url = `https://my-json-server.typicode.com/onerobertreyes/gb-challenge/products?offset=${offset}&limit=${limit}`
-        console.log(url)
-
+        const url = `https://my-json-server.typicode.com/onerobertreyes/gb-challenge/products`
+        
         const response = await fetch(url)
 
-        const data = (await response.json()) as Product[]
+        const data = (await response.json()) as Product[]    
+        
+        
+        if (!data) return [];
 
-        console.log(data)
+        const length = data.length;
 
-        return data
+        if (!length) {
+            return [];
+        }
+        if (offset > length - 1) {
+            return [];
+        }
+
+        const start = Math.min(length - 1, offset);
+        const end = Math.min(length, offset + limit);
+
+        return data.slice(start, end);
 
     } catch (error: unknown) {
         throw new Error(`Error message: ${error}`)

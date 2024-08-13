@@ -1,28 +1,164 @@
 {
-    "products":[
+    "products": [
         {
             "id": 1,
-            "title": "Product 1",
-            "price": 99.99,
+            "title": "Ergonomic Office Chair",
+            "price": 199.99,
             "currency": "USD",
             "image": "https://place-hold.it/200",
-            "rating": 4.5             
+            "rating": 4.5
         },
         {
             "id": 2,
-            "title": "Product 2",
-            "price": 99.99,
+            "title": "Wireless Bluetooth Earbuds",
+            "price": 89.99,
             "currency": "USD",
             "image": "https://place-hold.it/200",
-            "rating": 4.5             
+            "rating": 4.7
         },
         {
             "id": 3,
-            "title": "Product 3",
-            "price": 99.99,
+            "title": "Smart Home Thermostat",
+            "price": 129.99,
             "currency": "USD",
             "image": "https://place-hold.it/200",
-            "rating": 4.5             
+            "rating": 4.3
+        },
+        {
+            "id": 4,
+            "title": "4K Ultra HD TV - 55 inch",
+            "price": 599.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.6
+        },
+        {
+            "id": 5,
+            "title": "Robotic Vacuum Cleaner",
+            "price": 299.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.4
+        },
+        {
+            "id": 6,
+            "title": "High-Speed Blender",
+            "price": 89.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.8
+        },
+        {
+            "id": 7,
+            "title": "Portable Power Bank",
+            "price": 29.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.2
+        },
+        {
+            "id": 8,
+            "title": "Stainless Steel Cookware Set",
+            "price": 149.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.5
+        },
+        {
+            "id": 9,
+            "title": "Smartphone with 128GB Storage",
+            "price": 699.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.7
+        },
+        {
+            "id": 10,
+            "title": "Fitness Tracker Watch",
+            "price": 79.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.4
+        },
+        {
+            "id": 11,
+            "title": "Digital SLR Camera",
+            "price": 799.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.6
+        },
+        {
+            "id": 12,
+            "title": "Cordless Electric Kettle",
+            "price": 39.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.3
+        },
+        {
+            "id": 13,
+            "title": "Outdoor Patio Heater",
+            "price": 249.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.5
+        },
+        {
+            "id": 14,
+            "title": "Adjustable Standing Desk",
+            "price": 299.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.6
+        },
+        {
+            "id": 15,
+            "title": "High-Definition Webcam",
+            "price": 59.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.4
+        },
+        {
+            "id": 16,
+            "title": "Air Fryer with Digital Controls",
+            "price": 129.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.7
+        },
+        {
+            "id": 17,
+            "title": "Electric Toothbrush with UV Sanitizer",
+            "price": 89.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.6
+        },
+        {
+            "id": 18,
+            "title": "Home Security Camera System",
+            "price": 179.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.8
+        },
+        {
+            "id": 19,
+            "title": "Gaming Keyboard with Backlight",
+            "price": 69.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.5
+        },
+        {
+            "id": 20,
+            "title": "Yoga Mat with Carry Strap",
+            "price": 39.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.3
         }
     ]
 }

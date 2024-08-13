@@ -24,7 +24,7 @@ export default function ProductCard({ product }: ProductProps) {
                       </h3>
                       <p className="mt-1 text-sm text-gray-500">{product.rating}</p>
                     </div>
-                    <p className="text-sm font-medium text-gray-900">{product.price}</p>
+                    <p className="text-sm font-medium text-gray-900">{product.price} {product.currency}</p>
                   </div>
                 </div>
               )
