@@ -1,0 +1,12 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "title": "Product 1",
+            "price": 99.99,
+            "currency": "USD",
+            "image": "https://place-hold.it/200",
+            "rating": 4.5             
+        }
+    ]
+}
